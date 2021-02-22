@@ -3,8 +3,6 @@ arch:
   - amd64
   - ppc64le
 language: ruby
-bundler_args: "--binstubs --standalone --without documentation --path ../bundle"
-script: "bundle exec rake test"
 rvm:
   - 2.7.0
 jobs:
